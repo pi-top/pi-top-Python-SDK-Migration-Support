@@ -1,0 +1,38 @@
+Source: py-pitop-sdk-deprecation
+Section: python
+Priority: optional
+Maintainer: pi-top <deb-maintainers@pi-top.com>
+Build-Depends:
+ debhelper-compat (= 12),
+ dh-sequence-python3,
+# Required by pybuild
+ dh-python,
+ python3-all,
+ python3-setuptools,
+Standards-Version: 4.5.0
+Homepage: https://pi-top.com
+
+Package: python3-pitop-depr
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${python3:Depends},
+ python3-pitop,
+Breaks:
+ python3-pt-buttons,
+ python3-pt-oled,
+ python3-pt-pma,
+ python3-pt-proto-plus,
+Replaces:
+ python3-pt-buttons,
+ python3-pt-oled,
+ python3-pt-pma,
+ python3-pt-proto-plus,
+Description: pi-top Python SDK - Deprecation Support
+ Legacy support for pi-top user libraries that need to migrate to the pi-top Python SDK.
+ . 
+ 'python3-pitop' provides a unified interface to the pi-top. This package aims to provide
+ endpoints that are similar enough with legacy libraries that they will continue to work,
+ instead getting a warning to update their imports. At some point in the future, this package
+ will not be maintained and, eventually, dropped completely.
+ Version epoch number is 1 to ensure that this overrides all previous packages.
