@@ -30,7 +30,7 @@ Replaces:
  python3-pt-proto-plus,
 Description: pi-top Python SDK - Deprecation Support
  Legacy support for pi-top user libraries that need to migrate to the pi-top Python SDK.
- . 
+ .
  'python3-pitop' provides a unified interface to the pi-top. This package aims to provide
  endpoints that are similar enough with legacy libraries that they will continue to work,
  instead getting a warning to update their imports. At some point in the future, this package
