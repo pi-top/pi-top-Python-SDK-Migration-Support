@@ -29,13 +29,14 @@ Replaces:
  python3-pt-pma,
  python3-pt-proto-plus,
 Description: pi-top Python SDK - Deprecation Support
- Legacy support for pi-top user libraries that need to migrate to the pi-top Python SDK.
+ Legacy support for pi-top user libraries yet to migrate to pi-top Python SDK.
  .
- 'python3-pitop' provides a unified interface to the pi-top. This package aims to provide
- endpoints that are similar enough with legacy libraries that they will continue to work,
- instead getting a warning to update their imports. At some point in the future, this package
- will not be maintained and, eventually, dropped completely.
- Version epoch number is 1 to ensure that this overrides all previous packages.
+ 'python3-pitop' provides a unified interface to the pi-top. This package aims
+ to provide endpoints that are similar enough with legacy libraries that they
+ will continue to work, instead getting a warning to update their imports. At
+ some point in the future, this package will not be maintained and, eventually,
+ dropped completely. Version epoch number is 1 to ensure that this overrides all
+ previous packages.
  .
- CLI utility entrypoints are provided by the SDK itself. At some point in the future, these
- will not be maintained and, eventually, dropped completely.
+ CLI utility entrypoints are provided by the SDK itself. At some point in the
+ future, these will not be maintained and, eventually, dropped completely.
