@@ -18,7 +18,13 @@ Depends:
  ${misc:Depends},
  ${python3:Depends},
  python3-pitop,
-Breaks:
+Provides:
+ python3-pt-buttons,
+ python3-pt-keyboard,
+ python3-pt-oled,
+ python3-pt-pma,
+ python3-pt-proto-plus,
+Conflicts:
  python3-pt-buttons,
  python3-pt-keyboard,
  python3-pt-oled,
