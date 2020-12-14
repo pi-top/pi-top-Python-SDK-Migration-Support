@@ -2,7 +2,7 @@ py-pitop-sdk-deprecation (1:1.1.0) buster; urgency=medium
 
   * Specify that package provides, not breaks
 
- -- Mike Roberts <mike@pi-top.com>  Mon, 14 Dec 2020 21:10:10 +0000
+ -- Mike Roberts <mike@pi-top.com>  Mon, 14 Dec 2020 23:39:54 +0000
 
 py-pitop-sdk-deprecation (1:1.0.1) buster; urgency=medium
 
