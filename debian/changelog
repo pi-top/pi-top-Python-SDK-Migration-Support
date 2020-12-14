@@ -1,3 +1,9 @@
+py-pitop-sdk-deprecation (1:1.0.1) buster; urgency=medium
+
+  * Add python3-pt-keyboard to control file
+
+ -- Mike Roberts <mike@pi-top.com>  Mon, 14 Dec 2020 21:10:10 +0000
+
 py-pitop-sdk-deprecation (1:1.0.0) buster; urgency=medium
 
   * Initial release
