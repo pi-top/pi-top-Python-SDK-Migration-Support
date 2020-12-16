@@ -18,6 +18,7 @@ Depends:
  ${misc:Depends},
  ${python3:Depends},
  python3-pitop,
+ python3-sonic,
 Provides:
  python3-pt-buttons,
  python3-pt-keyboard,

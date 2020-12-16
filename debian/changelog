@@ -1,3 +1,11 @@
+py-pitop-sdk-deprecation (1:1.3.0) buster; urgency=medium
+
+  * Add URL to GitHub repository when using deprecated imports
+  * Add psonic dependency to package
+  * Fix importing of canvas in OLED lib
+
+ -- Mike Roberts <mike@pi-top.com>  Wed, 16 Dec 2020 20:08:17 +0000
+
 py-pitop-sdk-deprecation (1:1.2.0) buster; urgency=medium
 
   * Remove no-longer-available 'audio' from ptprotoplus

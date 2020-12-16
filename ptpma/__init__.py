@@ -15,5 +15,4 @@ from pitop.pma import (  # noqa: F401
 )
 from pitop.camera import Camera as PMACamera  # noqa: F401
 print("Note: Use of the 'ptpma' package is now deprecated. Please use 'pitop.pma' instead.")
-# TODO
-print("For more information, please see <TODO: URL>")
+print("For more information, please see https://github.com/pi-top/pi-top-Python-SDK-Deprecation-Support")
