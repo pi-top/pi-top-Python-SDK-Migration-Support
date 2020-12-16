@@ -1,3 +1,10 @@
+py-pitop-sdk-deprecation (1:1.2.0) buster; urgency=medium
+
+  * Remove no-longer-available 'audio' from ptprotoplus
+  * Import 'psonic' directly for ptprotoplus
+
+ -- Mike Roberts <mike@pi-top.com>  Wed, 16 Dec 2020 16:29:23 +0000
+
 py-pitop-sdk-deprecation (1:1.1.0) buster; urgency=medium
 
   * Specify that package provides, not breaks
