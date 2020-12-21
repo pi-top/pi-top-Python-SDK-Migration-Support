@@ -2,7 +2,6 @@ from pitop.miniscreen.oled import (  # noqa: F401
     OLED as PTOLEDDisplay,
 )
 from pitop.miniscreen.oled.core import (  # noqa: F401
-    display,
     fps_regulator,
 )
 from pitop.miniscreen.oled.core.controls import (  # noqa: F401
