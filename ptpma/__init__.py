@@ -4,7 +4,6 @@ from pitop.pma import (  # noqa: F401
     BrakingType,
     ServoMotor as PMAServoMotor,
     EncoderMotor as PMAEncoderMotor,
-    Joystick as PMAJoystick,
     UltrasonicSensor as PMAUltrasonicSensor,
     SoundSensor as PMASoundSensor,
     Potentiometer as PMAPotentiometer,
