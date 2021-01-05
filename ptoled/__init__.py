@@ -15,4 +15,4 @@ import pitop.miniscreen.oled.core.controls as device_helper  # noqa: F401
 canvas = PTOLEDDisplay().canvas
 
 print("Note: Use of the 'ptoled' package is now deprecated. Please use 'pitop.miniscreen.oled' instead.")
-print("For more information, please see https://github.com/pi-top/pi-top-Python-SDK-Deprecation-Support")
+print("For more information, please see https://github.com/pi-top/pi-top-Python-SDK-Migration-Support")
