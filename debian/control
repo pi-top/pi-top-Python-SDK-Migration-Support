@@ -29,7 +29,6 @@ Replaces:
  python3-pt-oled,
  python3-pt-pma,
  python3-pt-proto-plus,
-
 Conflicts:
  pt-diagnostics,
  python3-pt-buttons,
