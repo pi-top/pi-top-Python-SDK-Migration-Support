@@ -11,9 +11,11 @@ It will be deprecated and removed in the future.
 | Legacy CLI Command | Legacy Debian Package | Superceding CLI Command     | Superceding Debian Package |
 |--------------------|-----------------------|-----------------------------|----------------------------|
 | `pt-diagnostics`   | `pt-diagnostics`      | `pi-top diagnostics`        | `python3-pitop`            |
-<!-- | `pt-brightness`    | `pt-device-manager`   | `pi-top display brightness` | `python3-pitop`            |
-| `pt-host`    | `pt-device-manager`   | `pi-top devices hub` | `python3-pitop`            | -->
-
+| `pt-battery`       | `pt-device-manager`   | `pi-top battery`            | `python3-pitop`            |
+| `pt-brightness`    | `pt-device-manager`   | `pi-top display brightness` | `python3-pitop`            |
+| `pt-devices`       | `pt-device-manager`   | `pi-top devices`            | `python3-pitop`            |
+| `pt-host`          | `pt-device-manager`   | `pi-top devices hub`        | `python3-pitop`            |
+| `pt-oled`          | `pt-device-manager`   | `pi-top oled write`         | `python3-pitop`            |
 
 ### Python Modules
 

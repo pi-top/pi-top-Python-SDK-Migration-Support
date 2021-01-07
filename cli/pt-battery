@@ -8,7 +8,7 @@ IFS=$'\n\t'
 ###############################################################
 
 
-echo "Note, Use of 'pt-diagnostics' is now deprecated. Please use 'pi-top diagnostics' instead."
+echo "Note, Use of 'pt-battery' is now deprecated. Please use 'pi-top battery' instead."
 echo "For more information, please see https://github.com/pi-top/pi-top-Python-SDK-Migration-Support"
 
-pi-top diagnostics "${@}"
+pi-top battery "${@}"

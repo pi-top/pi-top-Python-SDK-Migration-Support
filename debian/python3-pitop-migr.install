@@ -1,5 +1,2 @@
-cli/pt-diagnostics    /usr/bin/
-lib/ptbuttons         /usr/lib/python3/dist-packages/
-lib/ptoled            /usr/lib/python3/dist-packages/
-lib/ptpma             /usr/lib/python3/dist-packages/
-lib/ptprotoplus       /usr/lib/python3/dist-packages/
+cli/*                 /usr/bin/
+lib/*                 /usr/lib/python3/dist-packages/
