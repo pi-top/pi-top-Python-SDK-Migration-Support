@@ -1,3 +1,9 @@
+py-pitop-sdk-migration (1:2.0.1) buster; urgency=medium
+
+  * Add deprecation notice to pt-diagnostics
+
+ -- Mike Roberts <mike@pi-top.com>  Thu, 07 Jan 2021 15:02:05 +0000
+
 py-pitop-sdk-migration (1:2.0.0) buster; urgency=medium
 
   * Rename package
