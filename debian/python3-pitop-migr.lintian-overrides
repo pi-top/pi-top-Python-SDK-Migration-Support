@@ -1,1 +1,6 @@
+python3-pitop-migr: binary-without-manpage usr/bin/pt-battery
+python3-pitop-migr: binary-without-manpage usr/bin/pt-brightness
+python3-pitop-migr: binary-without-manpage usr/bin/pt-devices
 python3-pitop-migr: binary-without-manpage usr/bin/pt-diagnostics
+python3-pitop-migr: binary-without-manpage usr/bin/pt-host
+python3-pitop-migr: binary-without-manpage usr/bin/pt-oled
