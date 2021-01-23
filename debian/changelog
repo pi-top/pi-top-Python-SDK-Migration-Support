@@ -1,3 +1,9 @@
+py-pitop-sdk-migration (1:4.0.0) buster; urgency=medium
+
+  * Only import PTOLEDDisplay for ptoled
+
+ -- Mike Roberts <mike@pi-top.com>  Sat, 23 Jan 2021 17:43:25 +0000
+
 py-pitop-sdk-migration (1:3.0.0) buster; urgency=medium
 
   * Migrate deprecated CLIs from SDK package
