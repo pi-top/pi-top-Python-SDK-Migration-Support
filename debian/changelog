@@ -1,3 +1,9 @@
+py-pitop-sdk-migration (1:4.1.0) buster; urgency=medium
+
+  * Add ptkeyboard
+
+ -- Mike Roberts <mike@pi-top.com>  Mon, 01 Feb 2021 16:53:53 +0000
+
 py-pitop-sdk-migration (1:4.0.0) buster; urgency=medium
 
   * Only import PTOLEDDisplay for ptoled
