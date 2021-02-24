@@ -1,3 +1,9 @@
+py-pitop-sdk-migration (1:4.1.1) buster; urgency=medium
+
+  * Fix diagnostics command: 'pi-top support health_check'
+
+ -- Mike Roberts <mike@pi-top.com>  Wed, 24 Feb 2021 14:00:19 +0000
+
 py-pitop-sdk-migration (1:4.1.0) buster; urgency=medium
 
   * Add ptkeyboard
