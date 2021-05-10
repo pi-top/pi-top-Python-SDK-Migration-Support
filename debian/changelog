@@ -1,3 +1,19 @@
+py-pitop-sdk-migration (1:4.1.2) buster; urgency=medium
+
+  [ Mike Roberts ]
+  * Architecture: any --> all
+
+  [ pre-commit-ci[bot] ]
+  * [pre-commit.ci] pre-commit autoupdate (#4)
+  * Move pma.components out of SDK
+  * Standards-Version: 4.5.1
+  * Add GitHub workflows
+
+  [ pre-commit-ci[bot] ]
+  * [pre-commit.ci] pre-commit autoupdate (#5)
+
+ -- pi-top <deb-maintainers@pi-top.com>  Mon, 10 May 2021 20:01:22 +0000
+
 py-pitop-sdk-migration (1:4.1.1) buster; urgency=medium
 
   * Fix diagnostics command: 'pi-top support health_check'
