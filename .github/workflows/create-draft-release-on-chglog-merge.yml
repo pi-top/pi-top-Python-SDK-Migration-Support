@@ -41,35 +41,6 @@ jobs:
           fi
           echo "::set-output name=is_python_package::${conditions_met}"
 
-  build-python:
-    needs: check-should-run
-    # Only run if setup.py exists
-    if: needs.check-should-run.outputs.should_run == 'true' && needs.check-should-run.outputs.is_python_package == 'true'
-    runs-on: ubuntu-20.04
-    steps:
-      - name: GitHub Environment Variables Action
-        uses: FranzDiebold/github-env-vars-action@v1.2.1
-
-      - name: Checkout code
-        uses: actions/checkout@v2.2.0
-
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.7
-
-      - uses: casperdcl/deploy-pypi@v2
-        with:
-          build: true
-          upload: false
-          dist_dir: "dist"
-
-      - name: Upload Python distribution artifacts
-        uses: actions/upload-artifact@v2
-        with:
-          name: "${{ env.GITHUB_REPOSITORY_NAME }}-#${{ env.GITHUB_SHA_SHORT }}-py"
-          path: "dist"
-
   build-debian:
     needs: check-should-run
     if: needs.check-should-run.outputs.should_run == 'true'
@@ -108,7 +79,7 @@ jobs:
 
   create-draft-release:
     runs-on: ubuntu-20.04
-    needs: [ build-debian, build-python ]
+    needs: [ build-debian ]
     steps:
       - name: GitHub Environment Variables Action
         uses: FranzDiebold/github-env-vars-action@v1.2.1
